@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{E98ECA29-FBAD-4E1C-8DE5-740D8D32754A}</ProjectGuid>
+    <ProjectGuid>{275EC3B6-A4DB-4209-A0C2-73F8F9C5C278}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab6CarrizoAntonia</RootNamespace>
-    <AssemblyName>Lab6-CarrizoAntonia</AssemblyName>
+    <RootNamespace>lab6AntoniaCarrizo</RootNamespace>
+    <AssemblyName>lab6-AntoniaCarrizo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Empresa.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
