@@ -4,9 +4,10 @@ namespace lab6AntoniaCarrizo
     [Serializable]
     public class Area : Division
     {
-        public Area(string nombreDivision)
+        public Area(string nombreDivision, Persona encargado)
         {
             this.NombreDivision = nombreDivision;
+            this.Encargado = encargado;
         }
     }
 }

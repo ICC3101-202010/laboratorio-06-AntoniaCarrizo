@@ -5,9 +5,10 @@ namespace lab6AntoniaCarrizo
     public class Departamento : Division
     {
 
-        public Departamento(string nombreDivision)
+        public Departamento(string nombreDivision, Persona encargado)
         {
             this.NombreDivision = nombreDivision;
+            this.Encargado = encargado;
         }
     }
 }
