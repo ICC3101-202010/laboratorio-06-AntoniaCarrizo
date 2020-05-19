@@ -14,6 +14,7 @@ namespace lab6AntoniaCarrizo
         {
             this.NombreEmpresa = nombreEmpresa;
             this.RutEmpresa = rutEmpresa;
+            this.Divisiones = divisiones;
         }
 
         public string NombreEmpresa { get => nombreEmpresa; set => nombreEmpresa = value; }
