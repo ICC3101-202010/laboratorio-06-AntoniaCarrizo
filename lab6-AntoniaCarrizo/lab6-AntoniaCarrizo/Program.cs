@@ -7,7 +7,7 @@ using System.Threading;
 
 /*
  * En el enunciado no se pide que se cree un area, por lo tanto esta clase no se usa,
- * si quisiera usarse solo habria que poner en la clase Crear empresa:
+ * si quisiera usarse solo habria que poner en el metodo Crearempresa:
  *
  * Console.WriteLine("Area: ");
             Console.WriteLine("Ingrese los datos del encargado del Area: ");
